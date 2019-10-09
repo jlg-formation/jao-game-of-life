@@ -7,3 +7,8 @@ rect {
   stroke-width: 0.05em;
   fill: transparent;
 }
+
+rect.selected {
+  stroke: transparent;
+  fill: black;
+}
