@@ -1,0 +1,9 @@
+svg {
+  border: 0.05em solid black;
+}
+
+rect {
+  stroke: #bbb;
+  stroke-width: 0.05em;
+  fill: transparent;
+}
