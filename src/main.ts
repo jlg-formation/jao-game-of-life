@@ -9,4 +9,4 @@ grid.configure({
 });
 grid.draw();
 
-new Command(document.querySelector('div.command'));
+new Command(document.querySelector('div.command'), grid);
