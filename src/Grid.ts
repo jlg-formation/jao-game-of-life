@@ -34,8 +34,8 @@ export class Grid {
         const rect = document.createElementNS(SVGNS, 'rect');
         const width = 20;
         const height = 20;
-        const x = j * width;
-        const y = i * height;
+        const x = i * width;
+        const y = j * height;
         rect.setAttribute('x', x + '');
         rect.setAttribute('y', y + '');
         rect.setAttribute('width', width + '');
