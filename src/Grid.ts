@@ -33,6 +33,14 @@ export class Grid {
         rect.setAttribute('width', width + '');
         rect.setAttribute('height', height + '');
         this.svg.appendChild(rect);
+        rect.addEventListener('click', event => {
+          const cl = (event.target as Element).classList;
+          if (cl.contains('selected')) {
+            cl.remove('selected');
+            return;
+          }
+          cl.add('selected');
+        });
       }
 
     }
